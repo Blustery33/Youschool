@@ -3,5 +3,7 @@
 
 
 {% block body %}
-
+{% for user in users %}
+<div>Bonjour je m'appel {{ user.prenom }}</div>
+{% endfor %}
 {% endblock %}
