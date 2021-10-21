@@ -3,7 +3,18 @@
 
 
 {% block body %}
+
 {% for user in users %}
-<div>Bonjour je m'appel {{ user.prenom }}</div>
+    {% if app.user %}
+    <div>Vous êtes identifié en tant que {{ app.user.username }}</div>
+    {% endif %}
 {% endfor %}
+
+    <div>
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button type="submit">ajouter un loisir</button>
+        {{ form_end(form) }}
+    </div>
+
 {% endblock %}

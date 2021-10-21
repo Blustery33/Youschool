@@ -4,7 +4,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "amphp/http-client": "^4.6",
@@ -28,6 +28,7 @@
         "symfony/mime": "5.3.*",
         "symfony/monolog-bundle": "^3.1",
         "symfony/notifier": "5.3.*",
+        "symfony/password-hasher": "5.3.*",
         "symfony/process": "5.3.*",
         "symfony/property-access": "5.3.*",
         "symfony/property-info": "5.3.*",
@@ -42,6 +43,7 @@
         "symfony/web-link": "5.3.*",
         "symfony/webpack-encore-bundle": "^1.12",
         "symfony/yaml": "5.3.*",
+        "symfonycasts/reset-password-bundle": "^1.9",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
     },
